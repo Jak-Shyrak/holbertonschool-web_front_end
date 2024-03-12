@@ -106,6 +106,21 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+    font-size: var(--button-font-size);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
+}
+
 .visually-hidden {
     display: none;
 }
@@ -169,7 +184,7 @@ a:active {
     text-align: center;
 }
 
-.nav .nav-item {
+.nav, .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -258,19 +273,4 @@ ul.row {
 	color: var(--color-white);
 	background-color: var(--color-primary);
 	text-decoration: none;
-}
-
-.button {
-    display: var(--button-display);
-    padding: var(--button-padding);
-    border: var(--button-border);
-    color: var(--button-color);
-    text-decoration: var(--button-text-decoration);
-    font-size: var(--button-font-size);
-}
-
-.button:hover {
-    color: var(--button-hover-color);
-    text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background);
 }
