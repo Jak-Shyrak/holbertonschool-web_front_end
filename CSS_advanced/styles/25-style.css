@@ -106,13 +106,12 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-
 .visually-hidden {
     display: none;
 }
 
-.card-category {
-    color: var(--color-primary);
+.card-category, .section-tagline {
+	color: var(--color-primary);
 }
 
 .section {
