@@ -260,3 +260,18 @@ ul.row {
 	background-color: var(--color-primary);
 	text-decoration: none;
 }
+
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+    font-size: var(--button-font-size);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
+}
