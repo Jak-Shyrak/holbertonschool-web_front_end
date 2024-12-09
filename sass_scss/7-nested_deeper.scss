@@ -1,0 +1,15 @@
+/* Nested Deeper */
+
+$font-regular: 14px;
+$font-h1: 16px;
+$font-h2: 12px;
+
+body {
+    font-size: $font-regular;
+    h1 {
+        font-size: $font-h1;
+        &.smaller {
+            font-size: $font-h2;
+        }
+    }
+}

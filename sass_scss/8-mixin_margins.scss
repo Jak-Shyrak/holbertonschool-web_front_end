@@ -1,0 +1,14 @@
+/* Mixin Margins */
+
+@mixin margin-generator($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+body {
+    @include margin-generator(10px);
+}
+
+div {
+    @include margin-generator(15px);
+}

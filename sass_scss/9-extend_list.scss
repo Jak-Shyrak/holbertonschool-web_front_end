@@ -1,0 +1,19 @@
+/* Extend List */
+
+$font-regular: 12px;
+$text-success: #00FF00;
+$text-warning: #FF0000;
+
+.info {
+    font-size: $font-regular;
+}
+
+.success {
+    @extend .info;
+    color: $text-success;
+}
+
+.warning {
+    @extend .info;
+    color: $text-warning;
+}
