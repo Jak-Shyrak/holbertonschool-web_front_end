@@ -336,7 +336,7 @@ html {
         ============================= */
   
   .container {
-    width: 960px;
+    width: max-width;
     margin-left: auto;
     margin-right: auto;
   }
